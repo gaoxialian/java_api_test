@@ -1,0 +1,14 @@
+[
+  {
+      "description":"get请求",
+      "request":
+        {
+          "uri":"/demo",
+          "method":"get"
+        }
+    ,
+      "response":{
+        "text":"response"
+      }
+  }
+]

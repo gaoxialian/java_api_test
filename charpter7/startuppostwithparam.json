@@ -1,0 +1,51 @@
+[
+  {
+      "description":"post请求",
+      "request":
+        {
+          "uri":"/postdemoforms",
+          "method":"post",
+          "forms":{
+            "name":"one"
+          }
+        }
+    ,
+      "response":{
+        "status":"200",
+        "json":{
+          "name":"success",
+          "status":"1"
+        }
+      }
+  },
+  {
+    "description":"post请求",
+    "request":
+    {
+      "uri":"/postdemo",
+      "method":"post"
+    },
+    "response":{
+      "status":"200",
+      "json":{
+        "name":"success",
+        "status":"1"
+      }
+    }
+  },
+  {
+    "description":"这是一个带cookies的Post请求",
+    "request":{
+      "uri":"/postdemojsonWithCookies",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json":{"age":"2"}
+    },
+    "response":{
+      "status":"200",
+      "json":
+            {"name":"success","status":"1"}
+      }
+  }
+]

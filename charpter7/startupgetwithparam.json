@@ -1,0 +1,17 @@
+[
+  {
+      "description":"get请求",
+      "request":
+        {
+          "uri":"/demo",
+          "method":"get",
+          "queries":{
+            "index":"1"
+          }
+        }
+    ,
+      "response":{
+        "text":"response"
+      }
+  }
+]
